@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="font-serif">
+    <div class="bg-gray-700 flex gap-10 content p-5 text-gray-900">
+        <nav class="flex inline-flex p-5 gap-100">
+            <div class="flex items-center gap-5">
+                <img class="w-15 h-15 rounded-2xl" src="images/logo.jpg" alt="">
+                <strong class="text-white px-3 py-3 ">Sandal Ashfaq</strong>
+            </div>
+            <div class="flex items-center gap-5 ">
+                <a class="bg-gray-900 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gray-800 transition-transform duration-300 hover:-translate-y-1 inline-block"
+                    href="#Home">Home</a>
+                <a class="bg-gray-900 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gray-800 transition-transform duration-300 hover:-translate-y-1 inline-block"
+                    href="#About">About</a>
+                <a class="bg-gray-900 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gray-800 transition-transform duration-300 hover:-translate-y-1 inline-block"
+                    href="#Skills">Skills</a>
+                <a class="bg-gray-900 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gray-800 transition-transform duration-300 hover:-translate-y-1 inline-block"
+                    href="#Projects">Projects</a>
+                <a class="bg-gray-900 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gray-800 transition-transform duration-300 hover:-translate-y-1 inline-block"
+                    href="#Contact">Contacts</a>
+            </div>
+        </nav>
+    </div>
+    <section id="Home"
+        class="flex flex-col md:flex-row items-center justify-between px-10 md:px-24 py-16 bg-gray-50 text-gray-900">
+        <div class="max-w-xl space-y-6 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-bold">
+                Hi, I'm <span class="text-gray-700 underline decoration-3">Sandal Ashfaq</span>
+            </h1>
+            <p class="text-xl font-medium text-gray-600">
+                Web Developer
+            </p>
+            <p class="text-gray-500">
+                I craft responsive, pixel-perfect web applications using modern technologies. Welcome to my creative
+                space where code meets design.
+            </p>
+
+            <div class="flex gap-4 justify-center justify-start pt-4">
+                <a href="#Contact"
+                    class="bg-gray-900 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gray-800 transition-transform duration-300 hover:-translate-y-1 inline-block">
+                    Get In Touch
+                </a>
+                <a href="#Projects"
+                    class="border border-gray-300 text-gray-700 px-6 py-3 rounded-xl shadow-md hover:bg-gray-100 transition-transform duration-300 hover:-translate-y-1 inline-block">
+                    View My Work
+                </a>
+            </div>
+        </div>
+        <div class="mt-12 flex justify-center">
+            <div
+                class="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-gray-200 shadow-2xl overflow-hidden group">
+                <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    src="images/image.jpeg" alt="Sandal Ashfaq Profile">
+            </div>
+        </div>
+    </section>
+
+    <section id="About" class="items-center bg-gray-50 text-gray-900 px-10 md:px-24 py-35">
+        <div class="text-center md:text-left mb-12">
+            <p class="text-sm font-sans text-gray-500">Get To Know Me</p>
+            <h1 class="text-4xl md:text-5xl font-bold"> <span class="underline decoration-3">Ab</span>out me</h1>
+        </div>
+
+        <div class="grid grid-cols-2 gap-12 items-center">
+            <div>
+                <p class="text-lg font-medium text-gray-800">
+                    I am a passionate developer who bridges the gap between clean code and beautiful user experiences.
+                </p><br>
+                <p class="text-gray-500">
+                    My journey into web development started with a curiosity about how things work on the internet.
+                    Today, I
+                    specialize in building responsive, accessible, and highly interactive user interfaces using modern
+                    tools
+                    like Tailwind CSS and JavaScript frameworks.
+                </p><br>
+                <p class="text-gray-500">
+                    When I am not staring at a code editor, you can find me exploring new design trends, learning
+                    emerging web
+                    standards, or working on creative side projects.
+                </p><br>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div
+                    class="p-6 bg-gray-50 border border-gray-100 rounded-2xl shadow-lg hover:shadow-md transition-shadow duration-300">
+                    <span class="text-2xl">🎓</span>
+                    <h1 class="font-bold text-gray-900 mt-2">Education</h1>
+                    <p class="text-sm text-gray-500 font-sans mt-1">B.S. in Computer Science</p>
+                </div>
+                <div
+                    class="p-6 bg-gray-50 border border-gray-100 rounded-2xl shadow-lg hover:shadow-md transition-shadow duration-300">
+                    <span class="text-2xl">💼</span>
+                    <h1 class="font-bold text-gray-900 mt-2">Experience</h1>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Frontend Projects</p>
+                </div>
+                <div
+                    class="p-6 bg-gray-50 border border-gray-100 rounded-2xl shadow-lg hover:shadow-md transition-shadow duration-300">
+                    <span class="text-2xl">✨</span>
+                    <h1 class="text-gray-900 font-bold mt-2">Philosophy</h1>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Clean, simple and sementic code</p>
+                </div>
+                <div
+                    class="p-6 bg-gray-50 border border-gray-100 rounded-2xl shadow-lg hover:shadow-md transition-shadow duration-300">
+                    <span class="text-2xl">🌐</span>
+                    <h1 class="text-gray-900 font-bold mt-2">Interests</h1>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Interest in Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Skills" class="items-center bg-gray-50 text-gray-900 px-10 md:px-24 py-35 ">
+        <div class="text-center md:text-left mb-12">
+            <p class="text-sm font-sans text-gray-500">My Expertise</p>
+            <h1 class="text-4xl md:text-5xl font-bold"> <span class="underline decoration-3">Ski</span>lls & Tools</h1>
+        </div>
+
+        <div class="grid grid-cols-4 bg-gray-50 gap-6 ">
+
+            <div class="relative group border border-gray-100 rounded-2xl overflow-hidden max-w-sm">
+                <div class="absolute inset-y-0 left-0 w-0 bg-black transition-all duration-1000 group-hover:w-full">
+
+                </div>
+
+                <div class="relative p-6 bg-transparent-bg border border-gray-100 rounded-2xl">
+                    <h3 class="font-bold text-gray-900 mt-3 font-serif">HTML</h3>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Building modern & Responsive Web Structures.</p>
+                </div>
+
+
+            </div>
+
+            <div class="relative group border border-gray-100 rounded-2xl overflow-hidden max-w-sm">
+                <div class="absolute inset-y-0 left-0 w-0 bg-black transition-all duration-1000 group-hover:w-full">
+
+                </div>
+
+                <div class="relative p-6 bg-transparent-bg border border-gray-100 rounded-2xl">
+                    <h3 class="font-bold text-gray-900 mt-3 font-serif">CSS</h3>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Creating Premium UI Designs & Layout.</p>
+                </div>
+
+
+            </div>
+
+            <div class="relative group border border-gray-100 rounded-2xl overflow-hidden max-w-sm">
+                <div class="absolute inset-y-0 left-0 w-0 bg-black transition-all duration-1000 group-hover:w-full">
+
+                </div>
+
+                <div class="relative p-6 bg-transparent-bg border border-gray-100 rounded-2xl">
+                    <h3 class="font-bold text-gray-900 mt-3 font-serif">Python</h3>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Developing AI Systems and automation tools.</p>
+                </div>
+
+
+            </div>
+
+            <div class="relative group border border-gray-100 rounded-2xl overflow-hidden max-w-sm">
+                <div class="absolute inset-y-0 left-0 w-0 bg-black transition-all duration-1000 group-hover:w-full">
+
+                </div>
+
+                <div class="relative p-6 bg-transparent-bg border border-gray-100 rounded-2xl">
+                    <h3 class="font-bold text-gray-900 mt-3 font-serif">Flutter</h3>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Creating cross-platform mobile applications.</p>
+                </div>
+
+
+            </div>
+
+            <div class="relative group border border-gray-100 rounded-2xl overflow-hidden max-w-sm">
+                <div class="absolute inset-y-0 left-0 w-0 bg-black transition-all duration-1000 group-hover:w-full">
+
+                </div>
+
+                <div class="relative p-6 bg-transparent-bg border border-gray-100 rounded-2xl">
+                    <h3 class="font-bold text-gray-900 mt-3 font-serif">C Language</h3>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Strong understanding of programming fundamentals.
+                    </p>
+                </div>
+
+
+            </div>
+
+            <div class="relative group border border-gray-100 rounded-2xl overflow-hidden max-w-sm">
+                <div class="absolute inset-y-0 left-0 w-0 bg-black transition-all duration-1000 group-hover:w-full">
+
+                </div>
+
+                <div class="relative p-6 bg-transparent-bg border border-gray-100 rounded-2xl">
+                    <h3 class="font-bold text-gray-900 mt-3 font-serif">Firebase</h3>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Authentication and cloud database integration.</p>
+                </div>
+
+
+            </div>
+
+            <div class="relative group border border-gray-100 rounded-2xl overflow-hidden max-w-sm">
+                <div class="absolute inset-y-0 left-0 w-0 bg-black transition-all duration-1000 group-hover:w-full">
+
+                </div>
+
+                <div class="relative p-6 bg-transparent-bg border border-gray-100 rounded-2xl">
+                    <h3 class="font-bold text-gray-900 mt-3 font-serif">Artificial Intelligence</h3>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Exploring intelligent systems and ML concepts..</p>
+                </div>
+
+
+            </div>
+
+            <div class="relative group border border-gray-100 rounded-2xl overflow-hidden max-w-sm">
+                <div class="absolute inset-y-0 left-0 w-0 bg-black transition-all duration-1000 group-hover:w-full">
+
+                </div>
+
+                <div class="relative p-6 bg-transparent-bg border border-gray-100 rounded-2xl">
+                    <h3 class="font-bold text-gray-900 mt-3 font-serif">JavaScript</h3>
+                    <p class="text-sm text-gray-500 font-sans mt-1">Adding interaction and dynamic experiences.</p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="flex justify-center py-5">
+            <button
+                class="bg-gray-900 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gray-800 transition-transform duration-300 hover:-translate-y-1 inline-block">
+                See More
+            </button>
+        </div>
+
+    </section>
+
+    <section id="Projects" class="items-center bg-gray-50 text-gray-900 px-10 md:px-24 py-35">
+        <div class="text-center md:text-left mb-12">
+            <p class="text-sm font-sans text-gray-500">My Recent works</p>
+            <h1 class="text-4xl md:text-5xl font-bold"> <span class="underline decoration-3">Pr</span>ojects</h1>
+        </div>
+
+        <div class="grid grid-cols-4 bg-gray-50 gap-6">
+            <div
+                class="bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
+                <div class="relative overflow-hidden aspect-video bg-gray-200">
+                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        src="images/image1.jpg" alt="">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs bg-gray-200 text-gray-700 px-2.5 py-1 rounded-full font-sans">C
+                                Language</span>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 font-serif">Electric Billing System</h3>
+                        <p class="text-gray-500 font-sans text-sm mt-2 leading-relaxed">
+                            The Electricity Billing Management System is a C-based software application designed to
+                            handle the billing process for electricity consumption automatically.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
+                <div class="relative overflow-hidden aspect-video bg-gray-200">
+                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        src="images/image2.png" alt="">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs bg-gray-200 text-gray-700 px-2.5 py-1 rounded-full font-sans">OOP
+                                C++</span>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 font-serif">Smart Toll Plaza</h3>
+                        <p class="text-gray-500 font-sans text-sm mt-2 leading-relaxed">
+                            Automates vehicle classification, calculates toll fees, processes smart electronic payments
+                            (simulating RFID), tracks revenue, and handles file-based data persistence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
+                <div class="relative overflow-hidden aspect-video bg-gray-200">
+                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        src="images/image3.jpg" alt="">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex gap-2 mb-3">
+                            <span
+                                class="text-xs bg-gray-200 text-gray-700 px-2.5 py-1 rounded-full font-sans">Hardware</span>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 font-serif">Full Adder Circuit</h3>
+                        <p class="text-gray-500 font-sans text-sm mt-2 leading-relaxed">
+                            A combinational circuit logic that adds three inputs (A, B, C-IN) and produces two
+                            computational outputs designated as C-OUT and SUM.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
+                <div class="relative overflow-hidden aspect-video bg-gray-200">
+                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        src="images/image4.jpg" alt="">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex gap-2 mb-3">
+                            <span
+                                class="text-xs bg-gray-200 text-gray-700 px-2.5 py-1 rounded-full font-sans">Python</span>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 font-serif">Solitrate Game</h3>
+                        <p class="text-gray-500 font-sans text-sm mt-2 leading-relaxed">
+                            A terminal-based clone of classic Klondike Solitaire. It manages core game logic including
+                            deck shuffling, column state tracking, and card filtering rules.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
+                <div class="relative overflow-hidden aspect-video bg-gray-200">
+                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        src="images/image5.jpg" alt="">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex gap-2 mb-3">
+                            <span
+                                class="text-xs bg-gray-200 text-gray-700 px-2.5 py-1 rounded-full font-sans">Python</span>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 font-serif">Digital Clock App</h3>
+                        <p class="text-gray-500 font-sans text-sm mt-2 leading-relaxed">
+                            Lightweight desktop digital clock built using Tkinter. It dynamically fetches system time
+                            and updates a neon-styled LED text interface recursively.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
+                <div class="relative overflow-hidden aspect-video bg-gray-200">
+                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        src="images/image6.jpg" alt="">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex gap-2 mb-3">
+                            <span
+                                class="text-xs bg-gray-200 text-gray-700 px-2.5 py-1 rounded-full font-sans">Flutter</span>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 font-serif">Brew & Cold Coffee App</h3>
+                        <p class="text-gray-500 font-sans text-sm mt-2 leading-relaxed">
+                            Visually striking cross-platform mobile app featuring custom ingredient sliders, animations,
+                            and a seamless state-managed cart ecosystem structure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
+                <div class="relative overflow-hidden aspect-video bg-gray-200">
+                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        src="images/image8.png" alt="">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs bg-gray-200 text-gray-700 px-2.5 py-1 rounded-full font-sans">HTML /
+                                CSS</span>
+                            <span
+                                class="text-xs bg-gray-200 text-gray-700 px-2.5 py-1 rounded-full font-sans">JavaScript</span>
+                            <span
+                                class="text-xs bg-gray-200 text-gray-700 px-2.5 py-1 rounded-full font-sans">PHP</span>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 font-serif">Naheed's Collection E-Commerce Website
+                        </h3>
+                        <p class="text-gray-500 font-sans text-sm mt-2 leading-relaxed">
+                            Naheed Collection is a premium e-commerce marketplace specializing in luxury South Asian
+                            designer wear, featuring intricately embroidered unstitched and ready-to-wear clothing for
+                            women.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-gray-50 border border-gray-100 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col group">
+                <div class="relative overflow-hidden aspect-video bg-gray-200">
+                    <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        src="images/image7.png" alt="">
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex gap-2 mb-3">
+                            <span class="text-xs bg-gray-200 text-gray-700 px-2.5 py-1 rounded-full font-sans">AI /
+                                ML</span>
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900 font-serif">Snake RL Agent</h3>
+                        <p class="text-gray-500 font-sans text-sm mt-2 leading-relaxed">
+                            A Snake environment trained using Reinforcement Learning rules (Q-Learning/DQN). The agent
+                            learns by trial and error, collecting reward parameters.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="flex justify-center py-5">
+            <button
+                class="bg-gray-900 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gray-800 transition-transform duration-300 hover:-translate-y-1 inline-block">
+                See More
+            </button>
+        </div>
+
+    </section>
+
+    <section id="Contact" class="items-center bg-gray-50 text-gray-900 px-10 md:px-24 py-35">
+        <div class="text-center md:text-left mb-12">
+            <p class="text-sm font-sans text-gray-500">Hello! let's work togather on your next project</p>
+            <h1 class="text-4xl md:text-5xl font-bold"> <span class="underline decoration-3">Let's</span> Talk</h1>
+        </div>
+        <div class="grid grid-cols-2 px-10  gap-10">
+            <div>
+
+                <p>For Commissions or Project Inquires,</p>
+                <p>Please email:</p>
+                <div class="space-y-4">
+                    <a href="mailto:sandalashfaq061@gmail.com"
+                        class="flex items-center space-x-3 text-slate-700 hover:text-gray-500 transition group">
+                        <svg class="w-5 h-5 flex-shrink-0 text-slate-600 group-hover:text-gray-500" fill="none"
+                            stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                            <path
+                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <span
+                            class="underline decoration-slate-400 group-hover:decoration-gray-500 underline-offset-2">sandalashfaq061@gmail.com</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sandal-ashfaq-827576385/"
+                        class="flex items-center space-x-3 text-slate-700 hover:text-gray-500 transition group">
+                        <svg class="w-5 h-5 flex-shrink-0 text-slate-600 group-hover:text-gray-500" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                        <span
+                            class="underline decoration-slate-400 group-hover:decoration-gray-500 underline-offset-2">SandalAshfaq</span>
+                    </a>
+
+                    <a href="https://github.com/"
+                        class="flex items-center space-x-3 text-slate-700 hover:text-gray-500 transition group">
+                        <svg class="w-5 h-5 flex-shrink-0 text-slate-600 group-hover:text-gray-500" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                        <span
+                            class="underline decoration-slate-400 group-hover:decoration-gray-500 underline-offset-2">sandal-ashfaq</span>
+                    </a>
+
+                    <a href="tel:+923255292051"
+                        class="flex items-center space-x-3 text-slate-700 hover:text-gray-500 transition group">
+                        <svg class="w-5 h-5 flex-shrink-0 text-slate-600 group-hover:text-gray-500" fill="none"
+                            stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                            <path
+                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                        <span
+                            class="underline decoration-slate-400 group-hover:decoration-gray-500 underline-offset-2">+92
+                            325 5192051</span>
+                    </a>
+
+                    <div class="flex items-center space-x-3 text-slate-700">
+                        <svg class="w-5 h-5 flex-shrink-0 text-slate-600" fill="none" stroke="currentColor"
+                            stroke-width="1.8" viewBox="0 0 24 24">
+                            <path
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span>Pakistan City, Haripur</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-md max-w-md">
+                    <h3 class="text-md font-bold text-slate-800 mb-4">Send a Message</h3>
+                    <form action="#" method="POST" class="space-y-3">
+                        <div>
+                            <input type="text" placeholder="Name"
+                                class="w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-sm text-slate-800 placeholder-slate-400 focus:border-gray-700 transition"
+                                required>
+                        </div>
+                        <div>
+                            <textarea rows="2" placeholder="Message"
+                                class="w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-sm text-slate-800 placeholder-slate-400 focus:border-gray-700 transition"
+                                required></textarea>
+                        </div>
+                        <div class="flex justify-center">
+                            <button type="submit"
+                                class="bg-gray-900 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-gray-800 transition-transform duration-300 hover:-translate-y-1 inline-block">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="flex justify-center justify-end w-full">
+                <div
+                    class="relative overflow-hidden rounded-3xl shadow-lg border border-slate-100 group max-w-lg w-full">
+                    <img class="h-full w-full " src="images/image9.jpg" alt=""
+                        class="w-full h-auto object-cover transform group-hover:scale-102 transition duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

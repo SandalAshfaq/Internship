@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Form</title>
+</head>
+
+<body class="bg-slate-50 min-h-screen flex items-center justify-center p-4 ">
+  <div class="w-full max-w-md bg-white p-8 rounded-2xl shadow-xl shadow-slate-100 border border-slate-100">
+    <div class="mb-8 text-center">
+      <h2 class="text-3xl font-bold text-slate-900">Registration Form</h2>
+    </div>
+    <form class="margin-top: 20px">
+      <div>
+        <img
+          class="w-30 h-30 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-3xl font-bold text-center"
+          src="/images/image.jpeg" alt="SA">
+      </div>
+      <div title="Enter Name">
+        <label for="name" class="block text-sm font-semibold text-slate-700 mb-1.5">First Name</label>
+        <input class="w-full px-4 py-3 rounded-lg border border-slate-200 text-slate-900 placeholder-slate-400 text-sm "
+          type="text" id="name" placeholder="Enter Name" />
+      </div>
+
+      <div title="Enter Last Name">
+        <label for="lname" class="block text-sm font-semibold text-slate-700 mb-1.5">Last Name</label>
+        <input class="w-full px-4 py-3 rounded-lg border border-slate-200 text-slate-900 placeholder-slate-400 text-sm"
+          type="text" id="lname" placeholder="Enter Last Name" />
+      </div>
+
+      <div title="Enter Reg No">
+        <label for="reg_no" class="block text-sm font-semibold text-slate-700 mb-1.5">Registration Number</label>
+        <input class="w-full px-4 py-3 rounded-lg border border-slate-200 text-slate-900 placeholder-slate-400 text-sm"
+          type="number" id="reg_no" placeholder="Enter Registration Number" />
+      </div>
+
+      <div title="Enter email">
+        <label for="email" class="block text-sm font-semibold text-slate-700 mb-1.5">Email Address</label>
+        <input class="w-full px-4 py-3 rounded-lg border border-slate-200 text-slate-900 placeholder-slate-400 text-sm"
+          type="email" id="email" placeholder="abc@example.com" />
+      </div>
+
+      <div title="Select Provience">
+        <label for="provience" class="block text-sm font-semibold text-slate-700 mb-1.5">Select Your Provience</label>
+        <select
+          class="w-full px-4 py-3 rounded-lg border border-slate-200 text-slate-900 placeholder-slate-400 text-sm">
+          <option value="" disabled selected hidden>Select province</option>
+          <option>KPK</option>
+          <option>Sindh</option>
+          <option>Balochistan</option>
+          <option>Punjab</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="Subject" class="block text-sm font-semibold text-slate-700 mb-1.5">Select Subject</label>
+        <div
+          class="checkbox-group px-4 py-3 rounded-lg border border-slate-200 text-slate-900 placeholder-slate-400 text-sm">
+          <label><input class="mr-2" type="checkbox" name="Subject">Web Development</label><br>
+          <label><input class="mr-2" type="checkbox" name="Subject">Graphic Designing</label><br>
+          <label><input class="mr-2" type="checkbox" name="Subject">Mobile App Development</label>
+        </div>
+      </div>
+
+      <div>
+        <label for="depart" class="block text-sm font-semibold text-slate-700 mb-1.5">Select Department</label>
+        <div
+          class="radio-group px-4 py-3 rounded-lg border border-slate-200 text-slate-900 placeholder-slate-400 text-sm">
+          <label><input class="mr-2" type="radio" name="depart">Electrical Engineering</label><br>
+          <label><input class="mr-2" type="radio" name="depart">Computer Science</label><br>
+          <label><input class="mr-2" type="radio" name="depart">Software Engineering</label>
+        </div>
+      </div>
+
+      <div>
+        <label for="terms" class="block text-sm font-semibold text-slate-700 mb-1.5">Terms and conditions</label>
+        <div
+          class="radio-group px-4 py-3 rounded-lg border border-slate-200 text-slate-900 placeholder-slate-400 text-sm">
+          <label><input type="radio" name="terms"> I agree</label>
+          <label><input type="radio" name="terms"> I disagree</label>
+        </div>
+      </div>
+
+      <div title="Enter Message">
+        <label for="message" class="block text-sm font-semibold text-slate-700 mb-1.5">Enter any Message</label>
+        <textarea
+          class="w-full px-4 py-3 rounded-lg border border-slate-200 text-slate-900 placeholder-slate-400 text-sm "
+          id="message" rows="4" placeholder="Type your message here..."></textarea>
+      </div>
+
+      <button type="submit"
+        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 rounded-lg text-sm transition-all duration-150 cursor-pointer shadow-lg shadow-blue-500/20 active:scale-[0.98]">
+        Submit
+      </button>
+
+    </form>
+  </div>
+
+</body>
+
+</html>
